@@ -62,7 +62,7 @@ async def start(bot, update):
     # logger.info(update)
     await update.reply(f"<b>Hii {update.chat.first_name}!</b>\nThis is a Telegram Multipurpose Bot Which can do many functions. /help for more details...  ",reply_markup=InlineKeyboardMarkup(
             [
-                    InlineKeyboardButton('JOIN', url='https://t.me/TGBotsCollection')
+                    InlineKeyboardButton('JOIN', url='https://t.me/cs_cloud')
                 ]
         )
     )
