@@ -28,7 +28,7 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("JOIN", url="https://t.me/cs_cloud")],
         [InlineKeyboardButton(
-            "Try", url="https://t.me/cs_cloud")]
+            "Owner", url="https://t.me/iAmLiKu1")]
     ])
     welcomed = f"<b>--Server Details--</b>\n<b>CPU:</b> {psutil.cpu_percent()}%\n<b>RAM:</b> {psutil.virtual_memory().percent}%\n<b>DISK:</b> {psutil.disk_usage('/').percent}%\n\n <b><i>Bot Uptime :</i></b> {bot_uptime}"
     await message.reply_text(welcomed, reply_markup=joinButton)
