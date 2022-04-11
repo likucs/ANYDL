@@ -50,7 +50,7 @@ Telegram ID : <code>{}</code>
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
 
-JOIN : https://t.me/TGBotsCollection \n For the List of Telegram Bots"""
+JOIN : https://t.me/cs_cloud \n For the List of Telegram Bots"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
